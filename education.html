@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="portfolio, game development, backend, web">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Yue Fang</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+        <link rel=""
+        href=""
+        integrity=""
+        crossorigin="anonymous"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+<!-- temp font: arial for reading-->
+    <body style="font-family:Arial, Helvetica, sans-serif;">
+        <!--teal:#008080-->
+        <header id="header">
+            <div class="logo">
+                <a href="https://yuefangofficial.github.io/" style="text-decoration:none;">
+                    <img src="logo.png" style="width: 233px;" alt="logo">
+                </a>
+            </div>
+            
+            <button class="nav-toggle" type="nav-toggle" aria-label="toggle navigation">
+                <i class="fa fa-tasks hamburger" aria-hidden="true"></i>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#header">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#work">Work</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="https://github.com/YueFangOfficial" alt="GitHub">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a class="nav__link" href="https://www.linkedin.com/in/yue-fang-a17800211/" alt="LinkedIn">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                        <a class="nav__link" href="mailto:yue.fang@uwaterloo.ca" alt="Email">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="waterloo">
+                <h2>University of Waterloo</h2>
+                <p>Bachelor of Computer Science</p>
+                <p>Computer Science, Honours, Co-operative</p>
+                <p>2020 - now</p>
+
+                <button type="button" class="collapse">courses checklist</button>
+                <div class="content">
+                    <section class="head">
+                        <h2>Bachelor of Computer Science Checklist</h2>
+                        <ol>
+                            <li><p>Under Required Courses and Electives, check off the forty unique courses (20.0 units) that you have earned
+                                university credit for. Additional Elective Units can be any course for which you received university credit.</p></li>
+                            <li><p>Verify that the Required Courses and Electives also satisfy the Additional Constraints.</p></li>
+                        </ol>
+                    </section>
+                    <section class="required">
+                        Required Courses</br>
+                        <input type="checkbox">7.5 CS Units
+                        <ul class="cs" style="list-style-type: none;">
+                            <li><input type="checkbox" checked>CS 1[13<b>4</b>]5 (F20)</li>
+                            <li><input type="checkbox" checked>CS 1[<b>3</b>4]6 (W21)</li>
+                            <li><input type="checkbox">CS 240 (S22)</li>
+                            <li><input type="checkbox">CS 241 (W22)</li>
+                            <li><input type="checkbox">CS 245 (W22)</li>
+                            <li><input type="checkbox" checked>CS 246 (S21)</li>
+                            <li><input type="checkbox">CS 251 (W22)</li>
+                            <li><input type="checkbox">CS 341 (F22)</li>
+                            <li><input type="checkbox">CS 350</li>
+                            <li><input type="checkbox">CS 340-398; 440-489</li>
+                            <li><input type="checkbox">CS 340-398; 440-489</li>
+                            <li><input type="checkbox">CS 340-398; 440-489</li>
+                            <li><input type="checkbox">CS 440-489</li>
+                            <li><input type="checkbox">CS 440-489</li>
+                            <li><input type="checkbox">CS 440-489</li>
+                        </ul>
+                        <input type="checkbox">3.5 Math Units
+                        <ul class="math" style="list-style-type: none;">
+                            <li><input type="checkbox" checked>MATH 1[<b>3</b>4]5 (F20)</li>
+                            <li><input type="checkbox" checked>MATH 1[<b>3</b>4]6 (W21)</li>
+                            <li><input type="checkbox" checked>MATH 1[2<b>3</b>4]7 (F20)</li>
+                            <li><input type="checkbox" checked>MATH 1[2<b>3</b>4]8 (W21)</li>
+                            <li><input type="checkbox">MATH 2[<b>3</b>4]9 (F21)</li>
+                            <li><input type="checkbox" checked>STAT 2[<b>3</b>4]0 (W21)</li>
+                            <li><input type="checkbox" checked>STAT 2[<b>3</b>4]1 (S21)</li>
+                        </ul>
+                    </section>
+                    <section class="elective">
+                        Electives</br>
+                        <input type="checkbox">5.0 Non-Math Units
+                        <ul class="non" style="list-style-type: none;">
+                            <li><input type="checkbox" checked>Communication list I<sup>1</sup>: EMLS 101R (F20)</li>
+                            <li><input type="checkbox">Communication list II<sup>2</sup>: EMLS 103R (W22)</li>
+                            <li><input type="checkbox" checked>Humanities I: Music 111 (W21)</li>
+                            <li><input type="checkbox">Humanities I: </li>
+                            <li><input type="checkbox" checked>Social Science I: AFM 101 (F20)</li>
+                            <li><input type="checkbox" checked>Social Science II: GEOG 101 (W21)</li>
+                            <li><input type="checkbox">Pure Science I: SCI 207 (W22)</li>
+                            <li><input type="checkbox">Pure Science II: </li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                        </ul>
+                        <input type="checkbox">4.0 Additional Elective Units
+                        <ul class="additional" style="list-style-type: none;">
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                            <li><input type="checkbox"></li>
+                        </ul>
+                    </section>
+                    <section class="constraints">
+                        Additional Constraints</br>
+                        <ul class="constraints" style="list-style-type: none;">
+                            <li><input type="checkbox">Non-math elective units must satisfy <a href="https://cs.uwaterloo.ca/computer-science/breadth-and-depth-requirements-2020-2021">breadth and depth</a> requirements:</li>
+                            <ul class="bd" style="list-style-type: none;">
+                                <input type="checkbox">All of (breadth):
+                                <ul class="breadth" style="list-style-type: none;">
+                                    <li><input type="checkbox">1.0 units from the humanities<sup>3</sup></li>
+                                    <li><input type="checkbox" checked>1.0 units from the social sciences</li>
+                                    <li><input type="checkbox">0.5 units from the pure sciences</li>
+                                    <li><input type="checkbox">0.5 units from the pure or applied sciences</li>
+                                </ul>
+
+                                <input type="checkbox">One of (depth):
+                                <ul class="depth" style="list-style-type: none;">
+                                    <li><input type="checkbox">1.5 units in the same subject area with at least
+                                        0.5 units at the 3rd year level or higher, or</li>
+                                    <li><input type="checkbox">1.5 units with the same subject forming a
+                                        prerequisite chain of length three</li>
+                                </ul>
+                            </ul>
+
+                            <li><input type="checkbox">Seven (regular) or eight (co-op) terms enrolled in at least
+                                three courses totaling 1.5 units</li>
+                            <li><input type="checkbox">No more than 2.0 units of failed courses</li>
+                            <li><input type="checkbox">No more than 5.0 units of unusable course attempts
+                                (failures and repeats of passed courses)</li>
+                            <li><input type="checkbox">CS major average of 60% or higher</li>
+                            <li><input type="checkbox">Cumulative average of 60% or higher</li>
+                            <li><input type="checkbox">Co-op requirements met, if applicable, including PD 1, PD
+                                11, PD 10, and a minimum of two other PD courses</li>
+
+                        </ul>
+                    </section>
+                    <section class="foot">
+                        <p><sup>1</sup>Communication List I: At least 60% in one of EMLS 101R, EMLS 102R, EMLS/ENGL 129R, ENGL 109, SPCOM 100, SPCOM 223.</p>
+                        <p><sup>2</sup>Communication List II: One of EMLS 103R, EMLS 104R, EMLS 110R, ENGL 108B, ENGL 108D, ENGL 119, ENGL 208B, ENGL 209, ENGL
+                            210E, ENGL 210F, ENGL 378/MTHEL 300, SPCOM 225, SPCOM 227, SPCOM 228, or an additional course from Communication List 1.</p>
+                        <p><sup>3</sup>The below Communication courses from List II can be used to satisfy both the Communication List II requirement and 0.5 unit for the
+                            humanities (breadth) requirement. Communication List I courses do NOT satisfy the humanities (breadth) requirement.
+                            <ul>ENGL 108B, ENGL 108D, ENGL 119, ENGL 208B, ENGL 209, ENGL 210E, ENGL 210F, ENGL 378/MTHEL 300, SPCOM 225, SPCOM
+                            227, SPCOM 228.</ul></p>
+                        <p>Disclaimer: This checklist is a handy tool, but it is not a substitute for the official degree regulations. If there is a question of
+                            interpretation or a discrepancy, the University Calendar always takes precedence: <a href="http://ugradcalendar.uwaterloo.ca/group/MATH-Computer-Science-1">http://ugradcalendar.uwaterloo.ca/group/MATH-Computer-Science-1</a>. You may complete the checklist and ask a CS advisor to review it, but the student is ultimately responsible for
+                            ensuring that they have met their degree requirements</p>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer style="text-align:center">
+            <a href="https://github.com/YueFangOfficial" style="text-decoration:none; color:rgb(214, 214, 215)" alt="GitHub">
+                <i class="fa fa-github" style="font-size:36px;color:rgb(214, 214, 215)"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yue-fang-a17800211/" style="text-decoration:none; color:rgb(214, 214, 215)" alt="LinkedIn">
+                <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:36px"></i>
+            </a>
+            <a href="mailto:yue.fang@uwaterloo.ca" style="text-decoration:none; color:rgb(214, 214, 215)" alt="Email">
+                <i class="fa fa-envelope" aria-hidden="true" style="font-size:36px"></i>
+            </a>
+
+            <br></br>
+            <p style="color:rgb(214, 214, 215)">Copyright © 2021 - 
+                <script type="text/javascript">document.write( new Date().getFullYear() );</script>
+                <a href="https://yuefangofficial.github.io/" style="color:rgb(214, 214, 215)">Yue Fang</a> - All Rights Reserved.
+            </p>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
